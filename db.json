@@ -1,0 +1,40 @@
+{
+  "produtos": [
+    {
+      "id": "1",
+      "titulo": "Produto 1A",
+      "descricao": "Computador ASUS MF-20",
+      "criadoEm": "2020-09-28"
+    },
+    {
+      "id": "2",
+      "titulo": "Produto 2",
+      "descricao": "Impressora HP",
+      "criadoEm": "09-10-2020"
+    },
+    {
+      "id": "3",
+      "titulo": "Produto 3",
+      "descricao": "Smartphone Huawei P40",
+      "criadoEm": "09-10-2020"
+    },
+    {
+      "titulo": "Produto 6",
+      "descricao": "Rato gaming",
+      "criadoEm": "2020-10-29",
+      "id": "DhqmUFh"
+    }
+  ],
+  "utilizadores": [
+    {
+      "id": "1",
+      "nome": "Rui Silva",
+      "email": "rsilva@exemplo.pt"
+    },
+    {
+      "nome": "Luís Almeida",
+      "email": "luis.almeida@mail.pt",
+      "id": "UIbCAhY"
+    }
+  ]
+}
