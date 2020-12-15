@@ -4,7 +4,7 @@ import { List, Datagrid, TextField, DateField, EditButton, DeleteButton } from '
 const ListaProdutos = (props) => {
     return <List {...props}>
         <Datagrid>
-            <TextField source='id' />
+
             <TextField source='titulo' />
             <TextField source='descricao' />
             <DateField source='criadoEm' />
