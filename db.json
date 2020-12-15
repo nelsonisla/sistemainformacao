@@ -2,7 +2,7 @@
   "produtos": [
     {
       "id": "1",
-      "titulo": "Produto 1A",
+      "titulo": "Produto 1",
       "descricao": "Computador ASUS MF-20",
       "criadoEm": "2020-09-28"
     },
@@ -23,6 +23,18 @@
       "descricao": "Rato gaming",
       "criadoEm": "2020-10-29",
       "id": "DhqmUFh"
+    },
+    {
+      "titulo": "Produto 5",
+      "descricao": "Rato ASUS",
+      "criadoEm": "2020-12-12",
+      "id": "ds_6zcF"
+    },
+    {
+      "titulo": "Produto 6",
+      "descricao": "HP Desktop",
+      "criadoEm": "2020-12-12",
+      "id": "NpG3eVm"
     }
   ],
   "utilizadores": [
