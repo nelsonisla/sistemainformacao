@@ -1,68 +1,102 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Sistema Informação Produtos
 
-## Available Scripts
+**instalar VSCode**
 
-In the project directory, you can run:
+https://code.visualstudio.com/download
 
-### `npm start`
+**Instalar nodeJS**
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+https://nodejs.org/en/download/
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+**Instalar git**
 
-### `npm test`
+https://git-scm.com/download/win
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**Criar pasta SI-Produtos**
 
-### `npm run build`
+**Abrir no VSCode**
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**Iniciar npm no Terminal**
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+```
+npm init -y
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**Instalar json-server**
 
-### `npm run eject`
+```
+npm i json-server
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+**Criar script no ficheiro package.json**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+"server": "json-server --watch db.json --port 5000"
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+**Criar ficheiro db.json**
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```
+{
+    "produtos": [
+        {
+            "id": "1",
+            "titulo":"Produto 1",
+            "descricao": "Computador ASUS MF-20",
+            "criadoEm": "09-10-2020"
+        },
+        {
+            "id": "2",
+            "titulo":"Produto 2",
+            "descricao": "Impressora HP",
+            "criadoEm": "09-10-2020"
+        },
+        {
+            "id": "3",
+            "titulo":"Produto 3",
+            "descricao": "Teclado Rock-FX",
+            "criadoEm": "09-10-2020"
+        }
+    ],
+    "utilizadores": [
+        {
+            "id": "1",
+            "nome": "Rui Silva",
+            "email": "rsilva@exemplo.pt"
+        }
+    ]
+}
+```
 
-## Learn More
+**Iniciar servidor no terminal**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
+npm run server
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+**instalar postman**
 
-### Code Splitting
+https://www.postman.com/downloads/
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+**verificar se servidor consegue ir buscar dados a BD**
 
-### Analyzing the Bundle Size
+http://localhost:5000/produtos
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+http://localhost:5000/utilizadores
 
-### Making a Progressive Web App
+**Testar a criação de um utilizador pelo Postman**
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+escolher POST, body, raw e escolher json
 
-### Advanced Configuration
+```
+{
+    "nome": "Joana Santos",
+    "email": "jsantos@exemplo.com"
+}
+```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+**instalar a framework react**
 
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+```
+npm i create-react-app client
+```
