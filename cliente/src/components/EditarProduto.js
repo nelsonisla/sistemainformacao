@@ -9,6 +9,7 @@ const EditarProduto = (props) => {
                     <TextInput disabled source='id' />
                     <TextInput source='titulo' />
                     <TextInput multiline source='descricao' />
+                    <TextInput source='preco' />
                     <DateInput label='Editado em' source='criadoEm' />
                 </SimpleForm>
             </Edit>

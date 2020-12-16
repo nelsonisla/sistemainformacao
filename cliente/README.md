@@ -100,3 +100,11 @@ escolher POST, body, raw e escolher json
 ```
 npm i create-react-app client
 ```
+
+**Iniciar cliente no terminal**
+
+entrar na pasta cliente
+
+```
+npm run client
+```

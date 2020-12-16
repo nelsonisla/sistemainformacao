@@ -8,6 +8,7 @@ const CriarProduto = (props) => {
                 <SimpleForm>
                     <TextInput source='titulo' />
                     <TextInput multiline source='descricao' />
+                    <TextInput source='preco' />
                     <DateInput label='Criado em' source='criadoEm' />
                 </SimpleForm>
             </Create>

@@ -1,40 +1,46 @@
 {
   "produtos": [
     {
-      "id": "1",
-      "titulo": "Produto 1",
-      "descricao": "Computador ASUS MF-20",
-      "criadoEm": "2020-09-28"
-    },
-    {
       "id": "2",
       "titulo": "Produto 2",
       "descricao": "Impressora HP",
+      "preco": "98,00",
       "criadoEm": "09-10-2020"
     },
     {
       "id": "3",
       "titulo": "Produto 3",
       "descricao": "Smartphone Huawei P40",
+      "preco": "750,00",
       "criadoEm": "09-10-2020"
     },
     {
       "titulo": "Produto 6",
       "descricao": "Rato gaming",
+      "preco": "70,00",
       "criadoEm": "2020-10-29",
       "id": "DhqmUFh"
     },
     {
       "titulo": "Produto 5",
       "descricao": "Rato ASUS",
+      "preco": "50,00",
       "criadoEm": "2020-12-12",
       "id": "ds_6zcF"
     },
     {
       "titulo": "Produto 6",
       "descricao": "HP Desktop",
+      "preco": "550,00",
       "criadoEm": "2020-12-12",
       "id": "NpG3eVm"
+    },
+    {
+      "titulo": "Portatil MSI",
+      "descricao": "MSI Gamming",
+      "preco": "990,00",
+      "criadoEm": "2020-12-16",
+      "id": "27QOyzo"
     }
   ],
   "utilizadores": [

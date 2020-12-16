@@ -7,6 +7,7 @@ const ListaProdutos = (props) => {
 
             <TextField source='titulo' />
             <TextField source='descricao' />
+            <TextField source='preco' />
             <DateField source='criadoEm' />
             <EditButton basePath='/produtos' />
             <DeleteButton basePath='/produtos' />
