@@ -108,5 +108,5 @@ npm i create-react-app client
 entrar na pasta cliente
 
 ```
-npm run client
+npm run start
 ```
